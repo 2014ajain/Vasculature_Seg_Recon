@@ -1,7 +1,7 @@
 # Histology Vasculature Segmentation and 3D Reconstruction
 CIS II Project
 
-General Outline 
+**General Outline **
 1. Train Scala Network 
 2. Train Vasculature Network 
 3. Compress images and run inference on to generate scala masks
@@ -9,7 +9,7 @@ General Outline
 5. Register histology images and use transforms to align segmentations
 6. Use 3D slicer to visualize stack of masks as 3D model 
 
-Code Structure 
+**Code Structure **
 
 reprocessdata.m: used to convert dataset into appropriate naming convention for training scala network 
 
